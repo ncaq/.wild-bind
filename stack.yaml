@@ -1,0 +1,6 @@
+flags: {}
+extra-deps:
+- github: debug-ito/wild-bind
+  commit: "d1439b7cc41ff816f430f1a9b0edbfeac0bc9344"
+  subdirs: [wild-bind, wild-bind-indicator, wild-bind-task-x11, wild-bind-x11]
+resolver: lts-12.9

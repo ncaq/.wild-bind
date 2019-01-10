@@ -1,0 +1,22 @@
+name:                wild-bind-ncaq
+version:             0.1.0
+#synopsis:
+#description:
+github:              ncaq/wild-bind-ncaq
+author:              ncaq
+maintainer:          ncaq@ncaq.net
+copyright:           © ncaq
+category:            UserInterface
+ghc-options:         -Wall -threaded
+
+dependencies:
+- base
+- process
+- wild-bind
+- wild-bind-task-x11
+- wild-bind-x11
+
+executables:
+  wild-bind-ncaq:
+    source-dirs:      src
+    main:             Main.hs
