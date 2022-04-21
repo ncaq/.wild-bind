@@ -1,8 +1,8 @@
-name:                wild-bind-ncaq
-version:             0.1.0
+name:                wild-bind-launch
+version:             0.1.0.0
 #synopsis:
 #description:
-github:              ncaq/wild-bind-ncaq
+github:              ncaq/.wild-bind
 author:              ncaq
 maintainer:          ncaq@ncaq.net
 copyright:           © ncaq
@@ -17,6 +17,6 @@ dependencies:
 - wild-bind-x11
 
 executables:
-  wild-bind-ncaq:
+  wild-bind-launch:
     source-dirs:      src
     main:             Main.hs
